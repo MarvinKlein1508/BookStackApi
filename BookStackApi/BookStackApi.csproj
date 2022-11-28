@@ -14,6 +14,7 @@
 		<Description>A C# library for the BookStack API.</Description>
 		<Title>BookStack API</Title>
 		<RepositoryType>git</RepositoryType>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>

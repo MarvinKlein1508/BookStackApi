@@ -15,7 +15,7 @@
 		<Title>BookStack API</Title>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageId>MarvinKlein1508.BookStackApi</PackageId>
+		<PackageId>BookStack.Api</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>

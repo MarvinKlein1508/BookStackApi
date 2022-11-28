@@ -57,7 +57,7 @@ There is also a function to get a list of those objects.
     bookStackService.GetListAsync<Chapter>();
 ```
 
-## How I create, update, delete, export with this API?
+## How do I create, update, delete, export with this API?
 This features are currently not supported by this implemention. I've only implemented the features that I'll needed right now. I'll might add more features in the future once I'll need those. Otherwise feel free to [create a pull request](https://github.com/MarvinKlein1508/BookStackApi/pulls).
 
 

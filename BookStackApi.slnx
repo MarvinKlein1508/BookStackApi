@@ -1,0 +1,9 @@
+<Solution>
+	<Folder Name="/Solution Items/">
+		<File Path="README.md" />
+	</Folder>
+	<Folder Name="/src/">
+		<Project Path="src/BookStackApi.Tester/BookStackApi.Tester.csproj" />
+		<Project Path="src/BookStackApi/BookStackApi.csproj" />
+	</Folder>
+</Solution>

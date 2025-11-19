@@ -16,7 +16,18 @@
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>MarvinKlein1508.BookStackApi</PackageId>
+		<Copyright>2025 Marvin Klein</Copyright>
+		<PackageProjectUrl>https://github.com/MarvinKlein1508/BookStackApi</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReleaseNotes>Update to .NET 10</PackageReleaseNotes>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Configuration" />

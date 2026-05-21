@@ -1,13 +1,12 @@
-﻿namespace BookStackApi.Core
+﻿namespace BookStackApi.Core;
+
+public enum FilterOperator
 {
-    public enum FilterOperator
-    {
-        Equals,
-        NotEquals,
-        GreaterThan,
-        LessThan,
-        GreaterThanOrEqual,
-        LessThanOrEqual,
-        Like
-    }
+    Equals,
+    NotEquals,
+    GreaterThan,
+    LessThan,
+    GreaterThanOrEqual,
+    LessThanOrEqual,
+    Like
 }

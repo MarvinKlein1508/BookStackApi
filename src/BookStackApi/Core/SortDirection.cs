@@ -1,8 +1,7 @@
-﻿namespace BookStackApi.Core
+﻿namespace BookStackApi.Core;
+
+public enum SortDirection
 {
-    public enum SortDirection
-    {
-        Ascending,
-        Descending
-    }
+    Ascending,
+    Descending
 }
